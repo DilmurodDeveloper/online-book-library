@@ -8,5 +8,7 @@
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
+    <Compile Include="Response\**\*.cs" />
+    <Compile Include="Enums\**\*.cs" />
   </ItemGroup>
 </Project>
