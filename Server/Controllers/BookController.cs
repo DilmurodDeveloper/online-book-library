@@ -5,8 +5,8 @@ using OnlineBookLibrary.Shared.Response;
 
 namespace OnlineBookLibrary.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class BookController : ControllerBase
     {
         private readonly IBookService _service;
